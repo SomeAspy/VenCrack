@@ -1,0 +1,105 @@
+{
+    "activity": null,
+    "application": null,
+    "applicationId": null,
+    "attachments": [
+        {
+            "id": "1131041720654643290",
+            "filename": "index.tsx",
+            "size": 7433,
+            "url": "https://cdn.discordapp.com/attachments/1032200195582197831/1131041720654643290/index.tsx",
+            "proxy_url": "https://media.discordapp.net/attachments/1032200195582197831/1131041720654643290/index.tsx",
+            "content_type": "text/plain; charset=utf-8",
+            "spoiler": false
+        },
+        {
+            "id": "1131041720969207929",
+            "filename": "clientTheme.css",
+            "size": 1073,
+            "url": "https://cdn.discordapp.com/attachments/1032200195582197831/1131041720969207929/clientTheme.css",
+            "proxy_url": "https://media.discordapp.net/attachments/1032200195582197831/1131041720969207929/clientTheme.css",
+            "content_type": "text/css; charset=utf-8",
+            "spoiler": false
+        },
+        {
+            "id": "1131041721476730971",
+            "filename": "ClassicClientThemeDemo.mp4",
+            "size": 1916235,
+            "url": "https://cdn.discordapp.com/attachments/1032200195582197831/1131041721476730971/ClassicClientThemeDemo.mp4",
+            "proxy_url": "https://media.discordapp.net/attachments/1032200195582197831/1131041721476730971/ClassicClientThemeDemo.mp4",
+            "width": 1920,
+            "height": 1080,
+            "content_type": "video/mp4",
+            "spoiler": false
+        }
+    ],
+    "author": {
+        "id": "280411966126948353",
+        "username": "f53",
+        "discriminator": "0",
+        "avatar": "1a1ccad8e07a3444e0d2a440fdb491c5",
+        "avatarDecoration": null,
+        "verified": false,
+        "bot": false,
+        "system": false,
+        "mobile": false,
+        "desktop": false,
+        "flags": 0,
+        "publicFlags": 0,
+        "purchasedFlags": 0,
+        "premiumUsageFlags": 0,
+        "guildMemberAvatars": {},
+        "hasBouncedEmail": false,
+        "globalName": "F53"
+    },
+    "blocked": false,
+    "bot": false,
+    "call": null,
+    "channel_id": "1032200195582197831",
+    "codedLinks": [],
+    "components": [],
+    "content": "**Classic Client Theme**\nRevival of the old client theme experiment (The one that came before the sucky one that we actually got)",
+    "editedTimestamp": null,
+    "embeds": [],
+    "flags": 0,
+    "giftCodes": [],
+    "id": "1131041721808076971",
+    "interaction": null,
+    "interactionData": null,
+    "interactionError": null,
+    "isSearchHit": false,
+    "loggingName": null,
+    "mentionChannels": [],
+    "mentioned": false,
+    "mentionEveryone": false,
+    "mentionRoles": [],
+    "mentions": [],
+    "messageReference": null,
+    "nonce": null,
+    "pinned": false,
+    "reactions": [
+        {
+            "emoji": {
+                "id": null,
+                "name": "💪"
+            },
+            "count": 7,
+            "count_details": {
+                "burst": 0,
+                "normal": 7
+            },
+            "burst_colors": [],
+            "me_burst": false,
+            "me": false,
+            "burst_count": 0
+        }
+    ],
+    "referralTrialOfferId": null,
+    "state": "SENT",
+    "stickerItems": [],
+    "stickers": [],
+    "timestamp": "2023-07-19T01:56:00.218Z",
+    "tts": false,
+    "type": 0,
+    "webhookId": null
+}

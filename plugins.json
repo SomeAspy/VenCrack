@@ -1,0 +1,85 @@
+[
+    {
+        "name": "message-logger-enhanced",
+        "git": "https://github.com/Syncxv/vc-message-logger-enhanced",
+        "type": "git"
+    },
+    {
+        "name": "exhq-plugins",
+        "git": "https://github.com/exhq/vencord-plugins",
+        "type": "git-files-aio"
+    },
+    {
+        "name": "ClassicClientTheme",
+        "path": "./static/ClassicClientTheme",
+        "type": "static-aio"
+    },
+    {
+        "name": "CustomClientThemes",
+        "path": "./static/CustomClientThemes/customClientThemes.ts",
+        "type": "static-aio"
+    },
+    {
+        "name": "SpotiMbed",
+        "git": "https://codeberg.org/vap/vc-spotimbed",
+        "type": "git"
+    },
+    {
+        "name": "uwuifier",
+        "git": "https://github.com/exhq/uwuifier-vencord",
+        "type": "git"
+    },
+    {
+        "name": "GifCollections",
+        "git": "https://github.com/Syncxv/vc-gif-collections",
+        "type": "git"
+    },
+    {
+        "name": "NoChannelEmojis",
+        "path": "./static/NoChannelEmojis/noChannelEmojis.ts",
+        "type": "static-aio"
+    },
+    {
+        "name": "HypedDomi-plugins",
+        "git": "https://github.com/HypedDomi/Vencord-Plugins/",
+        "type": "git-folders"
+    },
+    {
+        "name": "Stacktracer",
+        "path": "./static/stacktracer/featureless.ts",
+        "type": "static-aio"
+    },
+    {
+        "name": "ThemeExperimentFix",
+        "path": "./static/themeExperimentFix/themeFix.ts",
+        "type": "static-aio"
+    },
+    {
+        "name": "typeso",
+        "git": "https://github.com/mantikafasi/BetterBencordPlugins/",
+        "type": "git-aio",
+        "ignores": [
+            "reviewDB"
+        ]
+    },
+    {
+        "name": "GoFile-io",
+        "path": "./static/gofileio/1670108286369159.ts",
+        "type": "static-aio"
+    },
+    {
+        "name": "IgnoreBlockedUsers",
+        "path": "./static/ignoreBlockedUsers/ignoreBlockedUsers.ts",
+        "type": "static-aio"
+    },
+    {
+        "name": "void-plugins",
+        "git": "https://github.com/voidfill/venkordplugins",
+        "type": "git-folders"
+    },
+    {
+        "name": "animeBoys",
+        "git": "https://github.com/ShadiestGoat/vencord-cuteanimeboys",
+        "type": "git-aio"
+    },
+]

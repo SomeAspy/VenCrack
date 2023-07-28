@@ -1,0 +1,100 @@
+{
+    "activity": null,
+    "application": null,
+    "applicationId": null,
+    "attachments": [
+        {
+            "id": "1048734906521501756",
+            "filename": "1670108286369159.ts",
+            "size": 2569,
+            "url": "https://cdn.discordapp.com/attachments/1032200195582197831/1048734906521501756/1670108286369159.ts",
+            "proxy_url": "https://media.discordapp.net/attachments/1032200195582197831/1048734906521501756/1670108286369159.ts",
+            "content_type": "video/MP2T; charset=utf-8",
+            "spoiler": false
+        }
+    ],
+    "author": {
+        "id": "702973430449832038",
+        "username": "samu.lol",
+        "discriminator": "0",
+        "avatar": "24a295e8cf79bffec3bf24b5642d3a31",
+        "avatarDecoration": null,
+        "verified": false,
+        "bot": false,
+        "system": false,
+        "mobile": false,
+        "desktop": false,
+        "flags": 0,
+        "publicFlags": 0,
+        "purchasedFlags": 0,
+        "premiumUsageFlags": 0,
+        "guildMemberAvatars": {},
+        "hasBouncedEmail": false,
+        "globalName": "Samu"
+    },
+    "blocked": false,
+    "bot": false,
+    "call": null,
+    "channel_id": "1032200195582197831",
+    "codedLinks": [],
+    "components": [],
+    "content": "***Gofile.io***\nAllow for you to upload files to gofile.io and send a link to said file to others (Desktop only)\n\nPS: This is an early test of what Im making, plan for it to not be gofile.io exclusive when done, just didnt want this to go to waste incase i didnt finish",
+    "editedTimestamp": "2022-12-03T22:59:30.571Z",
+    "embeds": [],
+    "flags": 0,
+    "giftCodes": [],
+    "id": "1048734906873819268",
+    "interaction": null,
+    "interactionData": null,
+    "interactionError": null,
+    "isSearchHit": false,
+    "loggingName": null,
+    "mentionChannels": [],
+    "mentioned": false,
+    "mentionEveryone": false,
+    "mentionRoles": [],
+    "mentions": [],
+    "messageReference": null,
+    "nonce": null,
+    "pinned": false,
+    "reactions": [
+        {
+            "emoji": {
+                "id": null,
+                "name": "👍🏿"
+            },
+            "count": 7,
+            "count_details": {
+                "burst": 0,
+                "normal": 7
+            },
+            "burst_colors": [],
+            "me_burst": false,
+            "me": false,
+            "burst_count": 0
+        },
+        {
+            "emoji": {
+                "id": null,
+                "name": "🔥"
+            },
+            "count": 1,
+            "count_details": {
+                "burst": 0,
+                "normal": 1
+            },
+            "burst_colors": [],
+            "me_burst": false,
+            "me": false,
+            "burst_count": 0
+        }
+    ],
+    "referralTrialOfferId": null,
+    "state": "SENT",
+    "stickerItems": [],
+    "stickers": [],
+    "timestamp": "2022-12-03T22:58:06.351Z",
+    "tts": false,
+    "type": 0,
+    "webhookId": null
+}
