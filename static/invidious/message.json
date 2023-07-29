@@ -1,0 +1,111 @@
+{
+    "activity": null,
+    "application": null,
+    "applicationId": null,
+    "attachments": [
+        {
+            "id": "1089486282608083024",
+            "filename": "invidious.ts",
+            "size": 575,
+            "url": "https://cdn.discordapp.com/attachments/1032200195582197831/1089486282608083024/invidious.ts",
+            "proxy_url": "https://media.discordapp.net/attachments/1032200195582197831/1089486282608083024/invidious.ts",
+            "content_type": "video/MP2T; charset=utf-8",
+            "spoiler": false
+        }
+    ],
+    "author": {
+        "id": "250322741406859265",
+        "username": "katlyn",
+        "discriminator": "0",
+        "avatar": "88f071d3022c2ce6b17891520bc11cc7",
+        "avatarDecoration": null,
+        "verified": false,
+        "bot": false,
+        "system": false,
+        "mobile": false,
+        "desktop": false,
+        "flags": 4326144,
+        "publicFlags": 4326144,
+        "purchasedFlags": 0,
+        "premiumUsageFlags": 0,
+        "guildMemberAvatars": {},
+        "hasBouncedEmail": false,
+        "globalName": "katlyn"
+    },
+    "blocked": false,
+    "bot": false,
+    "call": null,
+    "channel_id": "1032200195582197831",
+    "codedLinks": [],
+    "components": [],
+    "content": "**Invidious**\nReplace youtube embeds with Invidious embeds from your favorite instance, allowing a teeny shred more privacy and bypassing the annoying \"This video contains content from [publisher]\" messages.\nNOTE: use of this plugin requires the following changes:\n  - Change the value of `INVIDIOUS_ROOT` to the root domain and path of your instance, including protocol (`http`/`https`)\n  - Add the following line to `src/main/index.ts` , in the `patchCsp` function (currently, line 83): `csp[\"frame-src\"].push(\"YOUR.INVIDIOUS.DOMAIN\")`\n\n*Hey, this is pretty neat and useful, why not make a PR?*\nBecause content security policy is a pain and there is no \"official\" invidious instance that we could rely on and add to the CSP list. Additionally, the list of Invidious instances is always changing, and there's no good way for the plugin to dynamically add these to the CSP header.",
+    "editedTimestamp": "2023-04-05T07:41:00.971Z",
+    "embeds": [],
+    "flags": 32,
+    "giftCodes": [],
+    "id": "1089486283233054780",
+    "interaction": null,
+    "interactionData": null,
+    "interactionError": null,
+    "isSearchHit": false,
+    "loggingName": null,
+    "mentionChannels": [],
+    "mentioned": false,
+    "mentionEveryone": false,
+    "mentionRoles": [],
+    "mentions": [],
+    "messageReference": null,
+    "nonce": null,
+    "pinned": false,
+    "reactions": [
+        {
+            "emoji": {
+                "id": null,
+                "name": "🙏🏿"
+            },
+            "count": 28,
+            "count_details": {
+                "burst": 0,
+                "normal": 28
+            },
+            "burst_colors": [],
+            "me_burst": false,
+            "me": false,
+            "burst_count": 0
+        },
+        {
+            "emoji": {
+                "id": "1024751352028602449",
+                "name": "trolley"
+            },
+            "count": 0,
+            "count_details": {
+                "burst": 3,
+                "normal": 0
+            },
+            "burst_colors": [
+                "#f0f0f0",
+                "#e0e0e0",
+                "#909090",
+                "#a0a0a0",
+                "#b0b0b0",
+                "#d0d0d0",
+                "#c0c0c0",
+                "#808080",
+                "#707070",
+                "#f0f0f0"
+            ],
+            "me_burst": false,
+            "me": false,
+            "burst_count": 3
+        }
+    ],
+    "referralTrialOfferId": null,
+    "state": "SENT",
+    "stickerItems": [],
+    "stickers": [],
+    "timestamp": "2023-03-26T09:49:31.599Z",
+    "tts": false,
+    "type": 0,
+    "webhookId": null
+}

@@ -1,12 +1,14 @@
 [
     {
         "name": "message-logger-enhanced",
-        "git": "https://github.com/Syncxv/vc-message-logger-enhanced",
+        "git": "Syncxv/vc-message-logger-enhanced",
+        "host": "github.com",
         "type": "git"
     },
     {
         "name": "exhq-plugins",
-        "git": "https://github.com/exhq/vencord-plugins",
+        "git": "exhq/vencord-plugins",
+        "host": "github.com",
         "type": "git-files-aio"
     },
     {
@@ -20,18 +22,15 @@
         "type": "static-aio"
     },
     {
-        "name": "SpotiMbed",
-        "git": "https://codeberg.org/vap/vc-spotimbed",
-        "type": "git"
-    },
-    {
         "name": "uwuifier",
-        "git": "https://github.com/exhq/uwuifier-vencord",
+        "git": "exhq/uwuifier-vencord",
+        "host": "github.com",
         "type": "git"
     },
     {
         "name": "GifCollections",
-        "git": "https://github.com/Syncxv/vc-gif-collections",
+        "git": "Syncxv/vc-gif-collections",
+        "host": "github.com",
         "type": "git"
     },
     {
@@ -41,7 +40,8 @@
     },
     {
         "name": "HypedDomi-plugins",
-        "git": "https://github.com/HypedDomi/Vencord-Plugins/",
+        "git": "HypedDomi/Vencord-Plugins/",
+        "host": "github.com",
         "type": "git-folders"
     },
     {
@@ -56,7 +56,8 @@
     },
     {
         "name": "typeso",
-        "git": "https://github.com/mantikafasi/BetterBencordPlugins/",
+        "git": "mantikafasi/BetterBencordPlugins/",
+        "host": "github.com",
         "type": "git-aio",
         "ignores": [
             "reviewDB"
@@ -74,12 +75,19 @@
     },
     {
         "name": "void-plugins",
-        "git": "https://github.com/voidfill/venkordplugins",
+        "git": "voidfill/venkordplugins",
+        "host": "github.com",
         "type": "git-folders"
     },
     {
         "name": "animeBoys",
-        "git": "https://github.com/ShadiestGoat/vencord-cuteanimeboys",
+        "git": "ShadiestGoat/vencord-cuteanimeboys",
+        "host": "github.com",
         "type": "git-aio"
     },
+    {
+        "name": "invidious",
+        "path": "./static/invidious/invidious.ts",
+        "type": "static-aio"
+    }
 ]
