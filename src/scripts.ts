@@ -79,11 +79,10 @@ export async function setup() {
     );
 }
 
-export async function copyGitFiles(path: string) {
-    console.log(`Copying ${path} to Vencord`);
+export async function copyFiles(path: string) {
     await childPromise(
         child.exec(
-            `cp ${baseDir}/temp/${path} ${baseDir}/temp/vencord/src/plugins/${
+            `cp -r ${baseDir}/${path} ${baseDir}/temp/vencord/src/plugins/${
                 path.split('/')[1]
             }`,
             (err, stdout, stderr) => {

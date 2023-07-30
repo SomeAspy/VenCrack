@@ -13,12 +13,12 @@
     },
     {
         "name": "ClassicClientTheme",
-        "path": "./static/ClassicClientTheme",
+        "path": "static/ClassicClientTheme",
         "type": "static-aio"
     },
     {
         "name": "CustomClientThemes",
-        "path": "./static/CustomClientThemes/customClientThemes.ts",
+        "path": "static/CustomClientThemes",
         "type": "static-aio"
     },
     {
@@ -35,28 +35,28 @@
     },
     {
         "name": "NoChannelEmojis",
-        "path": "./static/NoChannelEmojis/noChannelEmojis.ts",
+        "path": "static/NoChannelEmojis",
         "type": "static-aio"
     },
     {
         "name": "HypedDomi-plugins",
-        "git": "HypedDomi/Vencord-Plugins/",
+        "git": "HypedDomi/Vencord-Plugins",
         "host": "github.com",
         "type": "git-folders"
     },
     {
         "name": "Stacktracer",
-        "path": "./static/stacktracer/featureless.ts",
+        "path": "static/stacktracer",
         "type": "static-aio"
     },
     {
         "name": "ThemeExperimentFix",
-        "path": "./static/themeExperimentFix/themeFix.ts",
+        "path": "static/themeExperimentFix",
         "type": "static-aio"
     },
     {
         "name": "typeso",
-        "git": "mantikafasi/BetterBencordPlugins/",
+        "git": "mantikafasi/BetterBencordPlugins",
         "host": "github.com",
         "type": "git-aio",
         "ignores": [
@@ -65,12 +65,12 @@
     },
     {
         "name": "GoFile-io",
-        "path": "./static/gofileio/1670108286369159.ts",
+        "path": "static/gofileio",
         "type": "static-aio"
     },
     {
         "name": "IgnoreBlockedUsers",
-        "path": "./static/ignoreBlockedUsers/ignoreBlockedUsers.ts",
+        "path": "static/ignoreBlockedUsers",
         "type": "static-aio"
     },
     {
@@ -87,7 +87,13 @@
     },
     {
         "name": "invidious",
-        "path": "./static/invidious/invidious.ts",
+        "path": "static/invidious",
         "type": "static-aio"
+    },
+    {
+        "name": "spotimbed",
+        "git": "vap/vc-spotimbed",
+        "host": "codeberg.org",
+        "type": "git"
     }
 ]

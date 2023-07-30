@@ -1,10 +1,5 @@
 import json from '../plugins.json' assert { type: 'json' };
-import {
-    gitFetch,
-    copyGitToVencord,
-    baseDir,
-    copyGitFiles,
-} from './scripts.js';
+import { gitFetch, copyGitToVencord, baseDir, copyFiles } from './scripts.js';
 import type { PluginList } from './types/pluginsList.js';
 import { readdirSync } from 'fs';
 
@@ -22,26 +17,41 @@ export function movePlugins() {
                 break;
             case 'git-files-aio':
                 await gitFetch(plugin.git!, plugin.host).then(() => {
-                    const files = readdirSync(
+                    readdirSync(
                         `${baseDir}/temp/${plugin.git!.split('/')[1]!}`,
                         {
                             withFileTypes: true,
                         },
                     )
                         .filter((item) => item.isFile())
-                        .map((file) => file.name);
-                    files.forEach((file) => {
-                        console.log('wer');
-                        async () => {
-                            console.log(file);
-                            await copyGitFiles(
-                                `${plugin.git!.split('/')[1]!}/${file}`,
-                            );
-                        };
-                    });
+                        .map((file) => file.name)
+                        .forEach((file) => {
+                            void (async () => {
+                                console.log(`Found ${file}`);
+                                await copyFiles(
+                                    `temp/${plugin.git!.split(
+                                        '/',
+                                    )[1]!}/${file}`,
+                                );
+                            })();
+                        });
                 });
                 break;
-            case 'git-folders':
+            case 'static-aio':
+                readdirSync(`${baseDir}/${plugin.path}`, {
+                    withFileTypes: true,
+                })
+                    .filter(
+                        (item) =>
+                            item.isFile() && item.name.match(/.(tsx?|css)/),
+                    )
+                    .map((file) => file.name)
+                    .forEach((file) => {
+                        void (async () => {
+                            console.log(`Found ${file}`);
+                            await copyFiles(plugin.path!);
+                        })();
+                    });
         }
     });
 }
