@@ -2,7 +2,7 @@
 
 # Setup Working environment
 
-# git config pull.rebase false
+git config pull.rebase false
 git clone https://github.com/vendicated/vencord
 git clone https://github.com/SomeAspy/ThirdPartyVencordPlugins --recurse-submodules
 git pull https://github.com/vendicated/vencord
