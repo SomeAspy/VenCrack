@@ -1,43 +1,39 @@
 #!/bin/bash
 
-# Setup Working environment
+#SECTION - CLEANUP
+
+rm -rf dist vencord ThirdPartyVencordPlugins
+mkdir dist
+
+#!SECTION
+#SECTION - SETUP
 
 git config pull.rebase false
 git clone https://github.com/vendicated/vencord
 git clone https://github.com/SomeAspy/ThirdPartyVencordPlugins --recurse-submodules
-git pull https://github.com/vendicated/vencord
-git pull https://github.com/SomeAspy/ThirdPartyVencordPlugins --recurse-submodules
 
-# Repack bad packs
-cd ThirdPartyVencordPlugins
-bash repack.sh
-cd ..
+#!SECTION
+#SECTION - Integrate 3rd-party plugins
 
-# Move into Vencord plugins directory
+(cd ThirdPartyVencordPlugins || { echo "Filesystem Failure"; exit 1;}
+bash repack.sh)
 mkdir vencord/src/userplugins
-for item in ThirdPartyVencordPlugins/dist ; do
-    echo found $item
-    cp -r $item vencord/src/userplugins
-done
+cp -Rf ThirdPartyVencordPlugins/dist/* vencord/src/userplugins/
 
-# fix strange moving behavior
-mv vencord/src/userplugins/dist x
-rm -rf vencord/src/userplugins
-mv x vencord/src/userplugins
+#!SECTION
+#SECTION - Build Vencord
 
-# build vencord
-cd vencord
-pnpm install --frozen-lockfile
+(cd vencord || { echo "Filesystem Failure"; exit 1;}
+pnpm i --frozen-lockfile
+pnpm run buildWeb)
 
-# depending on which version of vencord you can select either buildWeb, or build for injecting locally.
+#!SECTION
+#SECTION - Deploy
 
-LocalInject=false
+cp -Rf vencord/dist/* dist
 
-if [ "$LocalInject" = true ] ; then
-    pnpm build
-    echo Just use "pnpm inject" inside the vencord folder!
-else
-    pnpm buildWeb
-    cp -r dist/**/* ../
-    echo dist is ready!
-fi
+#!SECTION
+
+echo Done packing Vencord! Files can now be served at the dist directory at the head of this repository!
+
+echo Made by someaspy on Discord - https://github.com/SomeAspy - https://aspy.dev
