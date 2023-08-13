@@ -38,6 +38,6 @@ if [ "$LocalInject" = true ] ; then
     echo Just use "pnpm inject" inside the vencord folder!
 else
     pnpm buildWeb
-    cp -r dist/**/* ../dist
+    cp -r dist/**/* ../
     echo dist is ready!
 fi
